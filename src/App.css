@@ -370,11 +370,11 @@
 @media screen and (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
   .main__container {
-    background-image: url("./images/planet_desctop@x2.png");
+    background-image: url("./images/planet_desktop@x2.png");
     background-size: 45.149%;
   }
   .overlay::before {
-    background-image: url("./images/dxr_desctop@x2.png");
+    background-image: url("./images/dxr_desktop@x2.png");
   }
 }
 
@@ -469,7 +469,7 @@
     margin: 0 auto;
     overflow: hidden;
 
-    background-image: url("./images/planet_desctop@x1.png");
+    background-image: url("./images/planet_desktop@x1.png");
     background-repeat: no-repeat;
     background-position: 1012px 54px;
   }
@@ -486,7 +486,7 @@
   }
 
   .header::before {
-    background-image: url("./images/header_shadow_left_desctop@x1.png");
+    background-image: url("./images/header_shadow_left_desktop@x1.png");
     background-repeat: no-repeat;
     position: absolute;
     width: 641.95px;
@@ -502,7 +502,7 @@
   }
 
   .header::after {
-    background-image: url("./images/header_shadow_desctop@x1.png");
+    background-image: url("./images/header_shadow_desktop@x1.png");
     background-repeat: no-repeat;
     position: absolute;
     width: 667.05px;
@@ -546,7 +546,7 @@
   }
 
   .section::after {
-    background-image: url("./images/section_shadow_desctop@x1.png");
+    background-image: url("./images/section_shadow_desktop@x1.png");
     background-repeat: no-repeat;
     position: absolute;
     width: 489.33px;
@@ -573,7 +573,7 @@
   }
 
   .overlay::before {
-    background-image: url("./images/dxr_desctop@x1.png");
+    background-image: url("./images/dxr_desktop@x1.png");
     width: 100%;
     height: 100%;
     background-size: 100%;
