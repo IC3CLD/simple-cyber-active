@@ -19,6 +19,8 @@
   pointer-events: none;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -314,10 +316,9 @@
   height: 14px;
   width: 14px;
   background-repeat: no-repeat;
-
 }
 
-.form-btn-text{
+.form-btn-text {
   padding-top: 4px;
 }
 
@@ -379,16 +380,6 @@
 }
 
 /* MEDIA */
-@media screen and (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
-  .main__container {
-    background-image: url("./images/planet_desktop@x2.png");
-    background-size: 45.149%;
-  }
-  .overlay::before {
-    background-image: url("./images/dxr_desktop@x2.png");
-  }
-}
 
 @media screen and (max-width: 1919px) {
   .main__container {
@@ -655,5 +646,17 @@
   .footer-btn::after {
     width: 19px;
     height: 14px;
+  }
+}
+
+@media not all,
+  screen and (min-width: 1360px) and (min-resolution: 2dppx),
+  screen and (min-width: 1360px) and (min-resolution: 192dpi) {
+  .main__container {
+    background-image: url("./images/planet_desktop@x2.png");
+    background-size: 45.149%;
+  }
+  .overlay::before {
+    background-image: url("./images/dxr_desktop@x2.png");
   }
 }
