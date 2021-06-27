@@ -18,18 +18,18 @@ const Form = () => {
     e.preventDefault();
     setLoad(true);
 
-    // emailjs
-    //   .sendForm(
-    //     "service_1r4qvhw",
-    //     "template_8x3q9n6",
-    //     e.target,
-    //     "user_k6lM6BhZozsGS99tvHSDe"
-    //   )
-    //   .then(
-    //     (result) => {},
-    //     (error) => {}
-    //   );
-    // e.target.reset();
+    emailjs
+      .sendForm(
+        "service_1r4qvhw",
+        "template_8x3q9n6",
+        e.target,
+        "user_k6lM6BhZozsGS99tvHSDe"
+      )
+      .then(
+        (result) => {},
+        (error) => {}
+      );
+    e.target.reset();
     setInterval(() => {
       setSubmitted(true);
     }, 2000);
