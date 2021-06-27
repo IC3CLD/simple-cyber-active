@@ -282,6 +282,12 @@
   background-size: 300% 100%;
   border-radius: 12px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* padding-top: 8px; */
+
   moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -305,8 +311,10 @@
   background-image: url("./images/Vector.svg");
   display: inline-block;
   content: "";
-  height: 12px;
+  height: 14px;
   width: 14px;
+  background-repeat: no-repeat;
+
 }
 
 /* Footer */
@@ -445,6 +453,7 @@
 
   .form-btn-text {
     display: none;
+    height: 17px;
   }
 }
 
