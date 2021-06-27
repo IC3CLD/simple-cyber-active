@@ -317,6 +317,10 @@
 
 }
 
+.form-btn-text{
+  padding-top: 4px;
+}
+
 /* Footer */
 
 .footer {
@@ -453,7 +457,6 @@
 
   .form-btn-text {
     display: none;
-    height: 17px;
   }
 }
 
