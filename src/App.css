@@ -19,8 +19,6 @@
   pointer-events: none;
 }
 
-
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -216,7 +214,7 @@
 }
 
 .form-submitted {
-  position: absolute;
+  display: block;
   text-align: center;
   top: 0;
   z-index: 10;
@@ -226,7 +224,7 @@
   border-radius: 14px;
   background-color: #1e2535;
 
-  box-shadow: 5px 5px 5px 5px #050d1f;
+  /* box-shadow: 5px 5px 5px 5px #050d1f; */
 
   font-style: normal;
   font-weight: 600;
@@ -309,17 +307,24 @@
   outline: none;
 }
 
-.form-btn::after {
+/* .form-btn::after {
   background-image: url("./images/Vector.svg");
   display: inline-block;
   content: "";
   height: 14px;
   width: 14px;
   background-repeat: no-repeat;
+} */
+
+.form-btn-vector {
+  height: 12px;
+  width: 14px;
+  display: block;
 }
 
 .form-btn-text {
   padding-top: 4px;
+  margin-right: 10px;
 }
 
 /* Footer */
@@ -618,9 +623,9 @@
     color: #ffffff;
   }
 
-  .form-btn::after {
+  /* .form-btn::after {
     margin-left: 10px;
-  }
+  } */
 
   .form-submitted {
     width: 555px;
